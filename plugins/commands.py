@@ -22,7 +22,7 @@ from info import *
 from utils import *
 from database.connections_mdb import active_connection
 
-# Set up logging
+# Set up logging 
 logging.basicConfig(level=logging.ERROR)
 logger = logging.getLogger(__name__)
 
