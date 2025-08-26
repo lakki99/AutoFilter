@@ -45,7 +45,7 @@ BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002759664047'))  # Bin channel i
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002292388295'))  # Notification of those who verify will be sent to your channel
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002759664047'))  # Premium logs channel id
 auth_channel = environ.get('AUTH_CHANNEL', '-1002292388295')  # Channel/Group ID for force sub (make sure bot is admin)
-DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '').split()]
+DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1002766670364').split()]
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1003048191413')  # Support group id (make sure bot is admin)
 reqst_channel = environ.get('REQST_CHANNEL_ID', '')  # Request channel id (make sure bot is admin)
 AUTH_CHANNEL = [int(fch) if id_pattern.search(fch) else fch for fch in environ.get('AUTH_CHANNEL', '-1002292388295').split()]
@@ -99,7 +99,7 @@ IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 # ============================
 # Channel & Group Links Configuration
 # ============================
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+lvOJKeQPsUI4YWZl')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/anime_bee_search')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/anime_bee')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/lakkisbots')
 MOVIE_UPDATE_CHANNEL_LNK = environ.get('MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/anime_bee')
