@@ -2040,15 +2040,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "group_info":
         buttons = [[
-            InlineKeyboardButton('× ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ×', url="https://t.me/nova_flix")
+            InlineKeyboardButton('× ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ×', url="https://t.me/Sk_Entertains")
        ],[
-            InlineKeyboardButton('• ɢʀᴏᴜᴘ •', url="t.me/movie7xchat"),
-            InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url="t.me/codeflix_bots")
+            InlineKeyboardButton('• ɢʀᴏᴜᴘ •', url="https://t.me/anime_bee_search"),
+            InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url="t.me/anime_bee")
        ],[
-            InlineKeyboardButton('• sᴇʀɪᴇsғʟɪx •', url="https://t.me/webseries_flix"),
-            InlineKeyboardButton('• ᴍᴏᴠɪᴇғʟɪx •', url="https://t.me/movieflixspot")
+            InlineKeyboardButton('• 𝖶𝖾𝖻 𝖲𝖾𝗋𝗂𝖾𝗌 •', url="https://t.me/Web_Series_Entertains"),
+            InlineKeyboardButton('• 𝖬𝗈𝗏𝗂𝖾𝗌 •', url="https://t.me/+lvOJKeQPsUI4YWZl")
        ],[
-            InlineKeyboardButton('• ᴀɴɪᴍᴇ ᴄʀᴜɪsᴇ •', url="https://t.me/Anime_Cruise_Netflix")
+            InlineKeyboardButton('• ᴀɴɪᴍᴇ •', url="https://t.me/Anime_spectators")
        ],[ 
             InlineKeyboardButton('• ʙᴀᴄᴋ •', callback_data='start')
         ]]
@@ -2186,7 +2186,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴄᴏᴍᴍᴀɴᴅs •', callback_data='main')
         ], [
             InlineKeyboardButton('• ᴅᴇᴠᴇʟᴏᴘᴇʀ', user_id=int(6497757690)),
-            InlineKeyboardButton('ɴᴇᴛᴡᴏʀᴋ •', url="t.me/otakuflix_network")
+            InlineKeyboardButton('ɴᴇᴛᴡᴏʀᴋ •', url="t.me/sk_entertains")
         ], [
             InlineKeyboardButton('• ʙᴀᴄᴋ •', callback_data='start')
         ]]
@@ -2199,7 +2199,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 📜', url='https://github.com/codeflix-bots/autofilter.git'),
+            InlineKeyboardButton('sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 📜', url='https://github.com/'),
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
